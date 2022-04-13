@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+    margin-top: 12.5%;
+}
+
+p {
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12.5%;
+}
+
+a {
+    margin: 10px;
+    cursor: pointer;
+}
+
+#twitter {
+    height: 50px;
+    width: 50px;
+}
+
+#linkedin {
+    height: 50px;
+    width: 50px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { 
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 425px;
+        width: 425px;
+        margin-top: 40%;
+    }
+
+    p {
+        width: 75%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25%;
+    }
+
+    #socials {
+        margin-top: 45%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */ 
+@media only screen and (min-width: 600px) {
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 425px;
+        width: 425px;
+        margin-top: 40%;
+    }
+
+    p {
+        width: 75%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25%;
+    }
+
+    #socials {
+        margin-top: 40%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 30px;
+    }
+    
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 550px;
+        width: 550px;
+        margin-top: 40%;
+    }
+
+    p {
+        width: 75%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25%;
+    }
+
+    #socials {
+        margin-top: 40%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {
+    p {
+        width: 40%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -6%;
+    }
+}
+
+*/ 
+
+/* Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {
+    p {
+        width: 40%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -6%;
+    }
+}
+*/
