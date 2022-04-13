@@ -3,15 +3,26 @@
     <head>
         <title>Fiable</title>
         <link rel="stylesheet" href="css/styles.css"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     </head>
     <body>
-        <img id="logo" src="img/fiable-logo.png">
-        <p>We help <b>low-mid income</b> individuals <b>travel to work</b> and <b>reduce their carbon 
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <img id="logo" data-aos="fade-down" src="img/fiable-logo.png">
+        <p data-aos="fade-right">We help <b>low-mid income</b> individuals <b>travel to work</b> and <b>reduce their carbon 
         footprint</b> by providing reliable, <b>short-distance personal transportation</b>.</p>
         <div id="socials">
-            <a href="https://twitter.com/FiableHQ" target="_blank"><img id="twitter" src="img/twitter.png"></a>
-            <a href="https://linkedin.com/company/fiabletransportation"  target="_blank"><img id="twitter" src="img/linkedin.png"></a>
+            <a data-aos="fade-right" href="https://twitter.com/FiableHQ" target="_blank"><img id="twitter" src="img/twitter.png"></a>
+            <a data-aos="fade-left" href="https://linkedin.com/company/fiabletransportation"  target="_blank"><img id="twitter" src="img/linkedin.png"></a>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
     </body>
+    <script>
+        AOS.init({ duration: 1200,})
+        window.addEventListener('load', AOS.refresh)
+    </script>
 </html>

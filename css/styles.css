@@ -11,7 +11,7 @@ body {
     margin-right: auto;
     height: 250px;
     width: 250px;
-    margin-top: 12.5%;
+    margin-top: 12%;
 }
 
 p {
@@ -19,6 +19,8 @@ p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -6%;
+
 }
 
 #socials {
@@ -56,7 +58,7 @@ a {
     }
 
     p {
-        width: 75%;
+        width: 85%;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -68,15 +70,19 @@ a {
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */ 
+/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    img {
+    body {
+        font-size: 25px;
+    }
+
+    #logo {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        height: 425px;
-        width: 425px;
-        margin-top: 40%;
+        height: 350px;
+        width: 350px;
+        margin-top: 10%;
     }
 
     p {
@@ -84,7 +90,7 @@ a {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 25%;
+        margin-top: 20%;
     }
 
     #socials {
@@ -92,7 +98,7 @@ a {
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 768px and up) 
 @media only screen and (min-width: 768px) {
     body {
         font-size: 30px;
@@ -119,28 +125,31 @@ a {
         margin-top: 40%;
     }
 }
-
-/* Large devices (laptops/desktops, 992px and up) 
-@media only screen and (min-width: 992px) {
-    p {
-        width: 40%;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: -6%;
-    }
-}
-
-*/ 
-
-/* Extra large devices (large laptops and desktops, 1200px and up)
-@media only screen and (min-width: 1200px) {
-    p {
-        width: 40%;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: -6%;
-    }
-}
 */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 350px;
+        width: 350px;
+        margin-top: 13.5%;
+    }
+    
+    p {
+        width: 40%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #socials {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35%;
+    }
+}
