@@ -32,28 +32,28 @@ p {
 }
 
 a {
-    margin: 10px;
+    margin: 7.5px;
     cursor: pointer;
 }
 
 #twitter {
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
 }
 
 #instagram {
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
 }
 
 #linkedin {
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
 }
 
 #facebook {
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
 }
 
 /* Extra small devices (phones, 600px and down) */
