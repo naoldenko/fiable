@@ -56,6 +56,46 @@ a {
     width: 35px;
 }
 
+#mailjet {
+    margin-top: 30%;
+    text-align: center;
+}
+
+/*
+@media only screen and (max-width: 300px) {
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 250px !important;
+        width: 250px !important;
+        margin-top: 40%;
+    }
+
+    p {
+        width: 80% !important;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30%;
+    }
+
+    #socials {
+        margin-top: 10%;
+    }
+
+    #mailjet {
+        margin-top: 80%;
+        text-align: center;
+    }
+
+    iframe {
+        width: 220px !important;
+        height: 400px !important;
+    }
+}
+*/
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) { 
     img {
@@ -72,11 +112,21 @@ a {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 25%;
+        margin-top: 30%;
     }
 
     #socials {
-        margin-top: 45%;
+        margin-top: 10%;
+    }
+
+    #mailjet {
+        margin-top: 80%;
+        text-align: center;
+    }
+
+    iframe {
+        width: 370px;
+        height: 370px;
     }
 }
 
@@ -104,7 +154,17 @@ a {
     }
 
     #socials {
-        margin-top: 40%;
+        margin-top: 30%;
+    }
+
+    #mailjet {
+        margin-top: 70%;
+        text-align: center;
+    }
+
+    iframe {
+        width: 500px;
+        height: 500px;
     }
 }
 
@@ -160,6 +220,11 @@ a {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin-top: 35%;
+        margin-top: 21%;
+    }
+
+    #mailjet {
+        margin-top: 30%;
+        text-align: center;
     }
 }
